@@ -1,0 +1,41 @@
+h1{
+  display: flex;
+  align-items: center; /* centra horizontalmente */
+  justify-content: center; /* centra verticalmente */
+}
+
+body{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(18, 18, 76);
+margin: center;
+color: white;
+}
+
+button{
+  background: red;
+  width: 500px;
+  height: 30px;
+color: white;
+border-radius: 1em;
+}
+#num1, #num2{
+  background-color: hsl(0, 20%, 80%);
+}
+.divi{
+background-color: rgb(0, 0, 0);
+padding: 1em;
+border-radius: 1rem;
+  text-align: center; /* centra horizontalmente */
+}
+p{
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+  text-align: center;
+}
+footer{
+  text-align:center;
+}
